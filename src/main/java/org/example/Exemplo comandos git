@@ -1,0 +1,15 @@
+# O que veio do git
+
+echo "# TurmaEngSoftwareLingProgramacao" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin <link do seu repositório>
+git push -u origin main
+
+
+Se você quiser fazer um novo commit
+git add .
+git commit -m "<mensagem de commit>"
+git push
